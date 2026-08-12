@@ -60,8 +60,8 @@ importers:
         specifier: ^4.4.0
         version: 4.4.0(dexie@4.4.4)(react@19.2.8)
       documents.js:
-        specifier: ^1.99.41
-        version: 1.99.41
+        specifier: ^1.99.42
+        version: 1.99.42
       markdown-codec:
         specifier: ^1.3.19
         version: 1.3.19
@@ -2152,10 +2152,6 @@ packages:
   buffer-from@1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
 
-  byte-codec@1.1.8:
-    resolution: {integrity: sha512-lAHu8GlFD6na3Xn7CMoD6RoVa1Ljk7cnpftm43vKGQ42n80Tj6vgp45WiJ+8j/d5prr7tkfa0EoFbUhiJ+IW6A==}
-    engines: {node: '>=20'}
-
   byte-codec@1.1.9:
     resolution: {integrity: sha512-LXJaz+hlOKTpNhKV0wCwWfCdys2evu4gAZ3a9aerHLnilQbpeEzsQPJoSIGlXvo2i7/nkxR5XilmtKu6T0GLcQ==}
     engines: {node: '>=20'}
@@ -2448,8 +2444,12 @@ packages:
     resolution: {integrity: sha512-AQDb6GEEHcQFBLbn06TR7yJgQY3tDvjmvF0FCSrw+Eyk9/ZOpMWdc/SUKysjr+pZZWdWuc6/kl2G+gu6iZjj8Q==}
     engines: {node: '>=20'}
 
-  documents.js@1.99.41:
-    resolution: {integrity: sha512-3ULvgntZulMIEeBwLtqifSRJtH/egFlhenhf0x4XmUfIVJx/UmHBpPPRAS6lOOpjeQQ3UTIE8FOzvtURPVSBjQ==}
+  document-schema.js@2.7.11:
+    resolution: {integrity: sha512-DAfB6av9akLHPYE/nkxTmy1JZQ/kfyqO5DY/5alYFchmVO9kNhqv3k2CEgkUmbuftffaXs0FamrkYkdXyLu/Ug==}
+    engines: {node: '>=20'}
+
+  documents.js@1.99.42:
+    resolution: {integrity: sha512-VmYjx9OREP9frucMqeYuU6RXTbzkj9J6IWhLmJvPnTblsCPr+7jA/pVMTOVfXuDCFNiPEIDyDA4ZHeLHjTTgZg==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -7084,10 +7084,6 @@ snapshots:
 
   buffer-from@1.1.2: {}
 
-  byte-codec@1.1.8:
-    dependencies:
-      fflate: 0.8.3
-
   byte-codec@1.1.9:
     dependencies:
       fflate: 0.8.3
@@ -7360,10 +7356,14 @@ snapshots:
     dependencies:
       zod: 4.4.3
 
-  documents.js@1.99.41:
+  document-schema.js@2.7.11:
+    dependencies:
+      zod: 4.4.3
+
+  documents.js@1.99.42:
     dependencies:
       byte-codec: 1.1.9
-      document-schema.js: 2.7.10
+      document-schema.js: 2.7.11
       fflate: 0.8.3
       markdown-codec: 1.3.19
       odf.js: 2.7.11
@@ -8763,7 +8763,7 @@ snapshots:
 
   pdf-codec@2.2.21:
     dependencies:
-      byte-codec: 1.1.8
+      byte-codec: 1.1.9
       document-schema.js: 2.7.10
       fflate: 0.8.3
       zod: 4.4.3
