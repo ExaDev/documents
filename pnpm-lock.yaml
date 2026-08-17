@@ -66,8 +66,8 @@ importers:
         specifier: ^1.3.31
         version: 1.3.31
       odf.js:
-        specifier: ^2.7.16
-        version: 2.7.16
+        specifier: ^2.7.17
+        version: 2.7.17
       react:
         specifier: ^19.2.8
         version: 19.2.8
@@ -3669,12 +3669,12 @@ packages:
     resolution: {integrity: sha512-4a+OsYv9UktOJKE+l1A4OufDgdRF9PifWj+tJnHURo/P+WOxpG4GzUFL9qCalmWauao6ogiG+QvnCovwPoyAWA==}
     engines: {node: '>=12.20.0'}
 
-  odf.js@2.7.15:
-    resolution: {integrity: sha512-JFJkBPo1UwsVq99S4gcBLvB5wC+f8qYpF6W8NIX9i0x8iaDYgzS9GhvGo5Pq4dbovmvmN0MJdkdMW2cvkRUCPA==}
-    engines: {node: '>=20'}
-
   odf.js@2.7.16:
     resolution: {integrity: sha512-7iMSNaDyjdBubX4JCaI2u4goIfrXxXxKWg4ADSnA6MnXQZ/iCeeY4JZ6SVyzKrT8nQtIh6NjSwXcRdbn8aH+Fg==}
+    engines: {node: '>=20'}
+
+  odf.js@2.7.17:
+    resolution: {integrity: sha512-7dVcxr85Y/4NvdxuAFw5PQIr/2OLWJrPIredLN2OnHL83VhXcgT5+92a6ZX34P3gEzQNu905/Vd5tuLStH0DCw==}
     engines: {node: '>=20'}
 
   onetime@6.0.0:
@@ -7374,7 +7374,7 @@ snapshots:
       document-schema.js: 2.7.15
       fflate: 0.8.3
       markdown-codec: 1.3.30
-      odf.js: 2.7.15
+      odf.js: 2.7.16
       ooxml.js: 2.11.30
       pdf-codec: 2.2.26
       zod: 4.4.3
@@ -8497,7 +8497,7 @@ snapshots:
 
   markdown-codec@1.3.30:
     dependencies:
-      document-schema.js: 2.7.15
+      document-schema.js: 2.7.17
       zod: 4.4.3
 
   markdown-codec@1.3.31:
@@ -8645,16 +8645,16 @@ snapshots:
 
   obug@2.1.4: {}
 
-  odf.js@2.7.15:
+  odf.js@2.7.16:
     dependencies:
-      document-schema.js: 2.7.15
+      document-schema.js: 2.7.17
       fast-xml-parser: 5.10.1
       fflate: 0.8.3
       zod: 4.4.3
 
-  odf.js@2.7.16:
+  odf.js@2.7.17:
     dependencies:
-      document-schema.js: 2.7.15
+      document-schema.js: 2.7.17
       fast-xml-parser: 5.10.1
       fflate: 0.8.3
       zod: 4.4.3
@@ -8665,7 +8665,7 @@ snapshots:
 
   ooxml.js@2.11.30:
     dependencies:
-      document-schema.js: 2.7.15
+      document-schema.js: 2.7.17
       fast-xml-parser: 5.10.1
       fflate: 0.8.3
       zod: 4.4.3
@@ -8784,7 +8784,7 @@ snapshots:
   pdf-codec@2.2.26:
     dependencies:
       byte-codec: 1.1.9
-      document-schema.js: 2.7.15
+      document-schema.js: 2.7.17
       fflate: 0.8.3
       zod: 4.4.3
 
