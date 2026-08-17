@@ -60,8 +60,8 @@ importers:
         specifier: ^4.4.0
         version: 4.4.0(dexie@4.4.4)(react@19.2.8)
       documents.js:
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: ^2.1.0
+        version: 2.1.0
       markdown-codec:
         specifier: ^2.0.0
         version: 2.0.0
@@ -2434,8 +2434,8 @@ packages:
     resolution: {integrity: sha512-XDu/+fo56WrXrcR3f16xH5lYEQX+3b4W6kJELRNFwrrWxOqhQBQepXMkCi+niSrgCEIcfaC1IeaGPlZ8oj5gSw==}
     engines: {node: '>=20'}
 
-  documents.js@2.0.0:
-    resolution: {integrity: sha512-ryI83OYP6JimwjrWsU7DEV7fGZuLy2QDyEoO6WRZW+ZFPHtJh+EQ1Q3wtaHxnW9gHizjumh00rjtlxc2rx9HXQ==}
+  documents.js@2.1.0:
+    resolution: {integrity: sha512-vJ6NplE4yJrozL1YmhCUMs2hD+Vu7KXnqTR+FhNKDeD62OAoxYHEILyQI0wBf9h5eYhWQWMGbBrR9HzjaTcvkg==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -7329,7 +7329,7 @@ snapshots:
     dependencies:
       zod: 4.4.3
 
-  documents.js@2.0.0:
+  documents.js@2.1.0:
     dependencies:
       byte-codec: 1.1.9
       document-schema.js: 3.2.0
