@@ -60,8 +60,8 @@ importers:
         specifier: ^4.4.0
         version: 4.4.0(dexie@4.4.4)(react@19.2.8)
       documents.js:
-        specifier: ^2.3.0
-        version: 2.3.0
+        specifier: ^3.0.1
+        version: 3.0.1
       markdown-codec:
         specifier: ^2.0.0
         version: 2.0.0
@@ -2438,8 +2438,12 @@ packages:
     resolution: {integrity: sha512-Jcg+sLEKF6T2w6WdCD1S0DcKFt1Kpk/rO1AZlE7fi0pqN4Ys8tN3qeY97DPc78QRy+EkbCW5hKLwM0EyV+Ojqw==}
     engines: {node: '>=20'}
 
-  documents.js@2.3.0:
-    resolution: {integrity: sha512-FTQIA9PRiHYPjn2NFEVdUp3rlvfd7smFs+HU6WAYhPFC47V4TzHBkIWhq9ptIbhtpldAThESKh61eLYYQrHd5A==}
+  document-schema.js@4.0.0:
+    resolution: {integrity: sha512-aCBeWHDubmchJBXPx7ZesLmGgOCAPOEI3n/PzunPLBEUq/w+hGpl/XLczGyyPkURu7nKR+dP6M1p7u6k4YxDsw==}
+    engines: {node: '>=20'}
+
+  documents.js@3.0.1:
+    resolution: {integrity: sha512-m8QPMu2LPYNzBaSWe2sfioixOY4uHpNgArx5MclrG61UszmPl2+E8dSfSwBSy8oqIIo/6j/o/fckJUyG4DEagQ==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -3440,6 +3444,10 @@ packages:
     resolution: {integrity: sha512-vbNj6KPo4hJxA7EAzqIiTAx9x3hF1xmFHFEJm/VVptlzuy8KfYYp3wmq7ZkWPbQ47/pIvANXfiA3Zc5NUvVitQ==}
     engines: {node: '>=20'}
 
+  markdown-codec@3.0.0:
+    resolution: {integrity: sha512-FhtWGLNw7/johsgZP+W9tj3Bc8u4b8HKX+R//CO+HCtq9EGhEnrG0MSWHOYi1Hqkm52isfu/DL1ZDJtYybWhxw==}
+    engines: {node: '>=20'}
+
   marked-terminal@7.3.0:
     resolution: {integrity: sha512-t4rBvPsHc57uE/2nJOLmMbZCQ4tgAccAED3ngXQqW6g+TxA488JzJ+FK3lQkzBQOI1mRV/r/Kq+1ZlJ4D0owQw==}
     engines: {node: '>=16.0.0'}
@@ -3652,20 +3660,20 @@ packages:
     resolution: {integrity: sha512-4a+OsYv9UktOJKE+l1A4OufDgdRF9PifWj+tJnHURo/P+WOxpG4GzUFL9qCalmWauao6ogiG+QvnCovwPoyAWA==}
     engines: {node: '>=12.20.0'}
 
-  odf.js@3.0.1:
-    resolution: {integrity: sha512-gVTXbQc6oHy1y1m7VxXXCQFU0HkTYoTSg7j/CH2Q+hSPulzOV4SCyPucS4CilSpmruckRONILpIMCi8DX4bFrA==}
-    engines: {node: '>=20'}
-
   odf.js@3.0.2:
     resolution: {integrity: sha512-7GjprsV1KIZ5YijknnVUADvoCnga/haQmHxrpVLadCohNEf+tTNSbZuZ/KP0k9iux8H+nGERvnWBWc/G9uJ8tw==}
+    engines: {node: '>=20'}
+
+  odf.js@4.0.0:
+    resolution: {integrity: sha512-O/eg94uDgXlSoSAC4Wbk3C0CXri2mSagu9RlSs9gaEQL84kqqp8IRySQwvQO1ytpCn6pnS8Wtl9A5RwiVvowSw==}
     engines: {node: '>=20'}
 
   onetime@6.0.0:
     resolution: {integrity: sha512-1FlR+gjXK7X+AsAHso35MnyN5KqGwJRi/31ft6x0M194ht7S+rWAvd7PHss9xSKMzE0asv1pyIHaJYq+BbacAQ==}
     engines: {node: '>=12'}
 
-  ooxml.js@2.16.0:
-    resolution: {integrity: sha512-NLoTLONWlZ09ZdUURCfF+oC+yZ2+A7VO+qDYy6vGbhcOVCRka8W95TuESNKEO+737JRDRSI527IBv82YS1EHTg==}
+  ooxml.js@3.0.0:
+    resolution: {integrity: sha512-QyddERXgvUNhtOtqs1S87DjwgUfCenHNeI8rKPHXXyqOd4r54nmGV0SjQRqih/vXSsYHLjn9DBWaPi33vCwEJg==}
     engines: {node: '>=20'}
 
   openapi-types@12.1.3:
@@ -3792,8 +3800,8 @@ packages:
   pathe@2.0.3:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
 
-  pdf-codec@2.2.35:
-    resolution: {integrity: sha512-kU15MYM2sNAOVPCop+qn2/ITpJ1460g1pj2k8wLKmIfJYp7h94YOPHpPwjVJUyP1tIQeH03wDzp5/uqz2Bwnvw==}
+  pdf-codec@3.0.0:
+    resolution: {integrity: sha512-oc2h039edaWyP/96WF0Jf29EhX7wQmjurEtNpEGliNwAPZ9eO6A0RWAAOl3B1Vnm7RJv06sxUxp2ZvcJJehyQw==}
     engines: {node: '>=20'}
 
   picocolors@1.1.1:
@@ -7345,15 +7353,19 @@ snapshots:
     dependencies:
       zod: 4.4.3
 
-  documents.js@2.3.0:
+  document-schema.js@4.0.0:
+    dependencies:
+      zod: 4.4.3
+
+  documents.js@3.0.1:
     dependencies:
       byte-codec: 1.1.9
-      document-schema.js: 3.2.0
+      document-schema.js: 4.0.0
       fflate: 0.8.3
-      markdown-codec: 2.0.0
-      odf.js: 3.0.1
-      ooxml.js: 2.16.0
-      pdf-codec: 2.2.35
+      markdown-codec: 3.0.0
+      odf.js: 4.0.0
+      ooxml.js: 3.0.0
+      pdf-codec: 3.0.0
       temml: 0.13.4
       zod: 4.4.3
 
@@ -8476,6 +8488,11 @@ snapshots:
       document-schema.js: 3.2.0
       zod: 4.4.3
 
+  markdown-codec@3.0.0:
+    dependencies:
+      document-schema.js: 4.0.0
+      zod: 4.4.3
+
   marked-terminal@7.3.0(marked@15.0.12):
     dependencies:
       ansi-escapes: 7.3.0
@@ -8616,16 +8633,16 @@ snapshots:
 
   obug@2.1.4: {}
 
-  odf.js@3.0.1:
+  odf.js@3.0.2:
     dependencies:
-      document-schema.js: 3.2.0
+      document-schema.js: 3.3.0
       fast-xml-parser: 5.10.1
       fflate: 0.8.3
       zod: 4.4.3
 
-  odf.js@3.0.2:
+  odf.js@4.0.0:
     dependencies:
-      document-schema.js: 3.3.0
+      document-schema.js: 4.0.0
       fast-xml-parser: 5.10.1
       fflate: 0.8.3
       zod: 4.4.3
@@ -8634,9 +8651,9 @@ snapshots:
     dependencies:
       mimic-fn: 4.0.0
 
-  ooxml.js@2.16.0:
+  ooxml.js@3.0.0:
     dependencies:
-      document-schema.js: 3.2.0
+      document-schema.js: 4.0.0
       fast-xml-parser: 5.10.1
       fflate: 0.8.3
       zod: 4.4.3
@@ -8752,10 +8769,10 @@ snapshots:
 
   pathe@2.0.3: {}
 
-  pdf-codec@2.2.35:
+  pdf-codec@3.0.0:
     dependencies:
       byte-codec: 1.1.9
-      document-schema.js: 3.2.0
+      document-schema.js: 4.0.0
       fflate: 0.8.3
       zod: 4.4.3
 
