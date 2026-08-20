@@ -1,5 +1,7 @@
 # documents
 
+> **This repository has moved.** `documents` now lives at [`packages/documents`](https://github.com/ExaDev/documents.js/tree/main/packages/documents) in the [`ExaDev/documents.js`](https://github.com/ExaDev/documents.js) monorepo. This repository is archived and will receive no further commits, releases, issues, or pull requests — file issues and send pull requests against the monorepo instead. The npm package itself is unaffected: `documents` keeps publishing from its new home under the same name.
+
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/ExaDev/documents) [![CI](https://img.shields.io/github/actions/workflow/status/ExaDev/documents/ci.yml?branch=main)](https://github.com/ExaDev/documents/actions)
 
 > A client-only, statically-built web UI for every conversion and editing tool in the [documents.js ecosystem](../README.md) — convert and edit docx, pptx, xlsx, odt, odp, ods, odg, csv, svg, pdf, and markdown documents entirely in the browser, with no server component.
